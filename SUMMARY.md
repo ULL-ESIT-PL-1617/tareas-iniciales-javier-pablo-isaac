@@ -7,3 +7,4 @@
   * [Gitbook desktop](Javier/gitbook-desktop.md)
 * [Atom](Javier/atom.md)
 * [Hub](Javier/hub.md)
+* [Git](Isaac/git.md)
