@@ -20,4 +20,4 @@ Para instalar el paquete con `dpkg` usamos la opción **-i** o **–install**. E
 
   ![imagen dpkg](img/dpkg.png)
 
-  **Nota:**  Es necesario tener privilegios de superusuario para realizar la instalación del paquete, por lo que se utiliza `sudo`
+  **Nota:**  Es necesario tener privilegios de superusuario para realizar la instalación del paquete, por lo que se utiliza `sudo`.
