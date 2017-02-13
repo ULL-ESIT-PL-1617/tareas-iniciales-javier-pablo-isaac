@@ -2,7 +2,7 @@
 
 ## ¿Qué es git?
 
-Git es un sistema de control de versiones gratuito y open source diseñado por **Linus Torvalds**. Está pensado para manejar desde pequeños projectos a grandes projectos de forma rápida y eficiente.
+Git es un sistema de control de versiones gratuito y open source diseñado por **Linus Torvalds**. Está pensado para manejar desde pequeños proyectos a grandes proyectos de forma rápida y eficiente.
 
 ## ¿Cómo se instala git?
 
