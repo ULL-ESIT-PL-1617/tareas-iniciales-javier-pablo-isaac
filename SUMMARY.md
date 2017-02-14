@@ -10,3 +10,5 @@
 * [Git](Isaac/git.md)
 * [GitHub Pages](Pablo/gh-pages.md)
 * [Pandoc](Isaac/pandoc.md)
+* [Gitbook Desktop](Javier/gitbook-desktop.md)
+* [Markdown](Javier/markdown.md)
