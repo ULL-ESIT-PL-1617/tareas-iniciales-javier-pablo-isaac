@@ -89,7 +89,7 @@ Debemos distinguir entre dos posibles casos:
     "gh-pages": "^0.12.0"
   }
   ```
-  ## Uso
+  ### Uso
 
   Para utilizar gh-pages, podemos crear la siguiente tarea en nuestro `gulpfile.js`
 
