@@ -62,3 +62,46 @@ Debemos distinguir entre dos posibles casos:
 
   **NOTA:** Las gh-pages también pueden basarse en la rama máster y en el directorio /docs dentro de la misma, si así lo configuramos en la configuración del repositorio en GitHub.
   ![Gh-Pages](img/gh-pages.PNG)
+
+
+  ## Módulo gh-pages
+
+  El proceso de publicación a la rama gh-pages puede simplificarse haciendo uso del módulo `gh-pages`.
+
+  ### Instalación
+
+  Primero debemos iniciar `npm` en nuestro repositorio:
+
+  ```
+  $ npm init
+  ```
+
+  Una vez iniciado, pasamos a descargar e instalar el módulo gh-pages:
+
+  ```
+  $ npm install gh-pages --save-dev
+  ```
+
+  Para comprobar que se ha instalado correctamente, examinamos el contenido del fichero `package.json`en busca de la siguiente línea:
+
+  ```json
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+  ```
+  ## Uso
+
+  Para utilizar gh-pages, podemos crear la siguiente tarea en nuestro `gulpfile.js`
+
+  ```javascript
+  var gulp = require('gulp');
+  var ghpages = require('gh-pages');
+  var path = require('path');
+
+  gulp.task('deploy', function() {
+  ghpages.publish(path.join(__dirname, '_book'), function(err) {
+        console.log('publicado en gh-pages');
+      });
+  });
+  ```  
+  De esta forma, todo lo que se encuentre en el directorio `_book` de nuestro repositorio, será añadido automáticamente a la rama `gh-pages`.
