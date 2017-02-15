@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../gitbook/readme.md" />
+    <link rel="next" href="intro_gitbook.html" />
     
     
     <link rel="prev" href="../" />
@@ -115,9 +115,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="../gitbook/readme.md">
+        <li class="chapter " data-level="1.3" data-path="intro_gitbook.html">
             
-                <span>
+                <a href="intro_gitbook.html">
             
                     
                     Gitbook
@@ -307,13 +307,13 @@ que es su ejecuci&#xF3;n en el navegador del cliente.</p>
 <p><strong>Interfaz interactiva</strong></p>
 <p>Un primer acercamiento a Node.JS puede ser por medio de una interfaz interactiva. De esta forma podremos escribir los comandos que queramos de forma similar a como se har&#xED;a con Pry o Irb en RUBY.</p>
 <p>Se usar&#xE1; JavaScript.</p>
-<p><code>node</code></p>
-<p><img src="img/node-interactive.PNG" alt="Interfaz interactiva de node"></p>
+<pre><code>$node
+</code></pre><p><img src="img/node-interactive.PNG" alt="Interfaz interactiva de node"></p>
 <p><strong>Desde archivos</strong></p>
 <p>Posteriormente, podremos acercarnos al uso m&#xE1;s frecuente de node, y es su ejecuci&#xF3;n de archivos JavaScript.</p>
 <p>Para ejecutar un archivo JavaScript con Node.JS basta con invocar a node con el archivo pasado como argumento.</p>
-<p><code>node hola_mundo.js</code></p>
-<p><img src="img/hello-world.PNG" alt="Desde archivo"></p>
+<pre><code>$node hola_mundo.js
+</code></pre><p><img src="img/hello-world.PNG" alt="Desde archivo"></p>
 <h2 id="&#xBF;qu&#xE9;-es-npm">&#xBF;Qu&#xE9; es npm?</h2>
 <p>Es el gestor de paquetes de Node.JS.</p>
 <h3 id="uso-de-npm">Uso de npm</h3>
@@ -321,11 +321,11 @@ que es su ejecuci&#xF3;n en el navegador del cliente.</p>
 <p>Se pueden instalar de dos formas:</p>
 <ul>
 <li><p>Localmente: El m&#xF3;dulo a instalar se instalar&#xE1; localmente en el directorio node_modules.</p>
-<p><code>npm install nombre_modulo</code></p>
-</li>
+<pre><code>$pm install nombre_modulo
+</code></pre></li>
 <li><p>Globalmente: Permitir&#xE1; usar el m&#xF3;dulo desde cualquier punto del sistema de archivos.</p>
-<p><code>npm install -g nombre_modulo</code></p>
-<p>NOTAS:</p>
+<pre><code>$npm install -g nombre_modulo
+</code></pre><p>NOTAS:</p>
 <ul>
 <li>Para a&#xF1;adir el m&#xF3;dulo como dependencia se usa la opci&#xF3;n <code>--save</code></li>
 <li>Para a&#xF1;adir el m&#xF3;dulo como dependencia de desarrollo se usa la opci&#xF3;n <code>--save-dev</code></li>
@@ -334,8 +334,8 @@ que es su ejecuci&#xF3;n en el navegador del cliente.</p>
 </ul>
 <p><strong>Obtener ayuda de un m&#xF3;dulo</strong></p>
 <p>Abrir&#xE1; una ventana del navegador que enlaza a la p&#xE1;gina de documentaci&#xF3;n elegida por el autor.</p>
-<p><code>npm docs nombre_modulo</code></p>
-<p><strong>Usar los m&#xF3;dulos</strong></p>
+<pre><code>$npm docs nombre_modulo
+</code></pre><p><strong>Usar los m&#xF3;dulos</strong></p>
 <p>En el c&#xF3;digo usado por Node.JS debemos usar la siguiente sintaxis:</p>
 <pre><code class="lang-javascript"><span class="hljs-keyword">var</span> modulo = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;modulo&apos;</span>)
 </code></pre>
@@ -374,7 +374,7 @@ que es su ejecuci&#xF3;n en el navegador del cliente.</p>
                 </a>
                 
                 
-                <a href="../gitbook/readme.md" class="navigation navigation-next " aria-label="Next page: Gitbook">
+                <a href="intro_gitbook.html" class="navigation navigation-next " aria-label="Next page: Gitbook">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -385,7 +385,7 @@ que es su ejecuci&#xF3;n en el navegador del cliente.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"NodeJS","level":"1.2","depth":1,"next":{"title":"Gitbook","level":"1.3","depth":1,"path":"gitbook/readme.md","ref":"gitbook/readme.md","articles":[{"title":"Gitbook, definición y línea de comandos","level":"1.3.1","depth":2,"path":"Pablo/gitbook.md","ref":"Pablo/gitbook.md","articles":[]},{"title":"Gitbook Desktop","level":"1.3.2","depth":2,"path":"Javier/gitbook-desktop.md","ref":"Javier/gitbook-desktop.md","articles":[]}]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Pablo/nodejs.md","mtime":"2017-02-15T16:54:52.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-15T18:25:30.493Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"NodeJS","level":"1.2","depth":1,"next":{"title":"Gitbook","level":"1.3","depth":1,"path":"Pablo/intro_gitbook.md","ref":"Pablo/intro_gitbook.md","articles":[{"title":"Gitbook, definición y línea de comandos","level":"1.3.1","depth":2,"path":"Pablo/gitbook.md","ref":"Pablo/gitbook.md","articles":[]},{"title":"Gitbook Desktop","level":"1.3.2","depth":2,"path":"Javier/gitbook-desktop.md","ref":"Javier/gitbook-desktop.md","articles":[]}]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Pablo/nodejs.md","mtime":"2017-02-15T18:40:50.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-15T18:41:03.043Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
