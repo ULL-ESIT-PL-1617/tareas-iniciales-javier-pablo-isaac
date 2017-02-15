@@ -33,7 +33,7 @@ Podemos usar GitBook en su versión de línea de comandos para inicializar, cons
 
   **NOTA:** Para trabajar con GitBook usaremos Markdown, que se explicará en este libro también
 
-* ** Añadir capítulos/Editar texto**
+* **Añadir capítulos/Editar texto**
 
   Como ya se dijo. Usaremos en la creación de libros con GitBook la sintaxis MarkDown.
 
@@ -46,7 +46,7 @@ Podemos usar GitBook en su versión de línea de comandos para inicializar, cons
   2. Editamos *SUMMARY.md* para añadir el capítulo que acabamos de crear.
   ![Summary](img/summary-example.PNG)
 
-* ** Construir el libro (Crear HTML)**
+* **Construir el libro (Crear HTML)**
 
   Una vez hayamos terminado de escribir el libro, podemos proceder a construir los HTML que lo contendrán a partir de los ficheros*.md* que hemos creado previamente. Para ello usaremos el comando siguiente:
 
