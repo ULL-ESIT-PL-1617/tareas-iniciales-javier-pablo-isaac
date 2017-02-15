@@ -20,7 +20,7 @@ Podemos usar GitBook en su versión de línea de comandos para inicializar, cons
 
 ### Uso de GitBook-cli
 
-* ** Crear la estructura inicial de un libro**
+* **Crear la estructura inicial de un libro**
 
   Para crear un nuevo libro, haremos uso del comando ```gitbook init nombre```, siendo nombre el nombre del libro a crear. Una vez ejecutado el comando, se nos creará la siguiente estructura.
 
