@@ -224,3 +224,48 @@ function fancyAlert(arg) {
 ```
 
 Existe otro modo de crear un bloque de código, encerrándolo entre dos líneas formadas por tres o más caracteres tilde `~`
+
+***
+```
+Esto es un párrafo normal
+
+~~~
+Esto es un párrafo de código.
+~~~
+```
+Esto es un párrafo normal
+
+~~~
+Esto es un párrafo de código.
+~~~
+***
+Por último existe una opción para resaltar pequeños trozos de código dentro de párrafos de texto normal. Para lograr esto debemos encerrar el código entre dos acentos graves.
+***
+```
+Esto es un párrafo normal, con un trozo de código, `import this` insertado en el medio del mismo.
+
+```
+
+Esto es un párrafo normal, con un trozo de código, `import this` insertado en el medio del mismo.
+***
+
+### Menciones a usuarios
+Se puede realizar mención a algún usuario escribiendo un símbolo `@`, seguido del nombre de usuario. Esta sentencia notificará al usuario correspondiente para que vaya y vea el mensaje.
+
+### Referencias a issues en el repositorio
+Cualquier número que haga referencia a un Issue o a un Pull Request será convertido automáticamente en un link.
+
+```
+#1
+mojombo#1
+mojombo/github-flavored-markdown#1
+```
+
+### Referencias SHA
+Cualquier referencia a una confirmación SHA-1 hash será convertido automáticamente en un link a ese commit en GitHub.
+
+```
+16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+```
