@@ -51,3 +51,93 @@ Una vez hayamos pulsado sobre él, comenzará la descarga de un ejecutable. Cuan
 
 
 ![](./images/git_windows.png)
+
+## Comandos básicos de git
+
+### Crear un repositorio
+
+Nos situamos en el interior del directorio que contiene nuestro proyecto.
+
+```
+$ git init
+
+```
+
+### Comprobar el estado de git
+
+```
+$ git status
+
+```
+
+### Añadir ficheros al control de versiones
+
+```
+$ git add .
+
+```
+
+### Realizar un commit
+
+```
+$ git commit
+
+```
+En este caso se nos abrirá nuestro editor por defecto para que introduzcamos el nombre del commit y su descripción.
+
+Si por el contrario, deseamos introducir únicamente el nombre del commit, podemos ejecutar:
+```
+$ git commit -m "nombre_del_commit"
+
+```
+
+### Añadir un repositorio remoto
+
+```
+$ git remote add <nombre_repositorio> <direccion_del_repositorio_remoto>
+
+```
+
+### Clonar un repositorio
+
+```
+$ git clone <direccion_del_repositorio_remoto>
+
+```
+
+En este caso, el nombre del repositorio remoto que se añade por defecto es: `origin`.
+
+### Empujar un repositorio
+
+```
+$ git push -u <nombre_repositorio_remoto> <rama>
+
+```
+
+### Crear una rama
+
+```
+$ git branch <nombre_rama>
+
+```
+
+### Borrar una rama
+
+```
+$ git branch -d <nombre_rama>
+
+```
+
+### Cambiar de rama
+
+```
+$ git checkout <nombre_rama>
+
+```
+
+### Fusionar ramas
+
+```
+$ git merge <nombre_rama>
+
+```
