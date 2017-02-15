@@ -102,16 +102,12 @@ Existen  dos maneras de crear enlaces:
 ### Imágenes
 La manera de enlazar imágenes es básicamente la misma de crear enlaces, con un única diferencia, se añade el carácter exclamación ! al principio de la pareja de corchetes que definen el nombre del enlace:
 
-* Con título
+
 ```
-![Con titulo](img/markdown.png "titulo")
+![Titulo de la imagen](img/markdown.png "titulo")
 ```
 ![Con titulo](img/markdown.png "titulo")
 
-* Sin título
-```
-![Sin titulo](pictures/avatar.png)
-```
 
 ### Citas
 Para crear bloques de cita, se emplea el carácter mayor que `>` antes del bloque de texto. A continuación se pueden ver las opciones para crearlo.
