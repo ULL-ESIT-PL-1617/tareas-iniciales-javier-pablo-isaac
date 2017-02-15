@@ -43,7 +43,9 @@ Un primer acercamiento a Node.JS puede ser por medio de una interfaz interactiva
 
 Se usará JavaScript.
 
-```node ```
+```
+$node
+```
 
 ![Interfaz interactiva de node](img/node-interactive.PNG)
 
@@ -53,7 +55,9 @@ Posteriormente, podremos acercarnos al uso más frecuente de node, y es su ejecu
 
 Para ejecutar un archivo JavaScript con Node.JS basta con invocar a node con el archivo pasado como argumento.
 
-```node hola_mundo.js```
+```
+$node hola_mundo.js
+```
 
 ![Desde archivo](img/hello-world.PNG)
 
@@ -69,11 +73,15 @@ Se pueden instalar de dos formas:
 
 * Localmente: El módulo a instalar se instalará localmente en el directorio node_modules.
 
-  ```npm install nombre_modulo```
+  ```
+  $pm install nombre_modulo
+  ```
 
 * Globalmente: Permitirá usar el módulo desde cualquier punto del sistema de archivos.
 
-  ```npm install -g nombre_modulo```
+  ```
+  $npm install -g nombre_modulo
+  ```
 
   NOTAS:
 
@@ -84,7 +92,9 @@ Se pueden instalar de dos formas:
 
 Abrirá una ventana del navegador que enlaza a la página de documentación elegida por el autor.
 
-```npm docs nombre_modulo```
+```
+$npm docs nombre_modulo
+```
 
 **Usar los módulos**
 

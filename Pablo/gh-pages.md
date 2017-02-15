@@ -20,7 +20,9 @@ Debemos distinguir entre dos posibles casos:
 
     Clonaremos el repositorio como haríamos con cualquier otro repositorio
 
-    ```git clone https://github.com/username/username.github.com```
+    ```
+    $git clone https://github.com/username/username.github.com
+    ```
 
   3. **Crear la página**
 
@@ -44,7 +46,9 @@ Debemos distinguir entre dos posibles casos:
 
     No necesitamos que la rama incluya commits que no estén relacionados con la web a desplegar, por tanto, crearemos una rama huérfana.
 
-    ```git checkout --orphan gh-pages```
+    ```
+    $git checkout --orphan gh-pages
+    ```
 
   2. **Crear la página**
 

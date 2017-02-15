@@ -12,7 +12,9 @@ Numerosos usuarios usan esta herramienta para escribir documentación (Librería
 
 Podemos usar GitBook en su versión de línea de comandos para inicializar, construir y hacer públicos los libros que creemos, para instalarlo necesitamos tener Node.js instalado y ejecutar el siguiente comando.
 
-``` npm install gitBook-cli [-g] ```
+```
+$npm install gitBook-cli [-g]
+```
 
 **Nota:** La opción *-g* se utiliza para hacer la instalación global.
 
@@ -50,7 +52,9 @@ Podemos usar GitBook en su versión de línea de comandos para inicializar, cons
 
   Una vez hayamos terminado de escribir el libro, podemos proceder a construir los HTML que lo contendrán a partir de los ficheros*.md* que hemos creado previamente. Para ello usaremos el comando siguiente:
 
-  ```gitbook build```
+  ```
+  $gitbook build
+  ```
 
   ![Build](img/gitbook-build.PNG)
 
@@ -70,7 +74,9 @@ Podemos usar GitBook en su versión de línea de comandos para inicializar, cons
 
   Una vez hemos creado el libro, podremos hacer que esté disponible en localhost para poder navegar correctamente por él.
 
-  ```gitbook serve```
+  ```
+  $gitbook serve
+  ```
 
   La opción ```--port``` nos permitirá seleccionar el puerto.
 
