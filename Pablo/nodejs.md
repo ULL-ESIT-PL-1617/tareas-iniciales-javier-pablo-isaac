@@ -90,10 +90,11 @@ Abrirá una ventana del navegador que enlaza a la página de documentación eleg
 
 En el código usado por Node.JS debemos usar la siguiente sintaxis:
 
-```var modulo = require('modulo')```
+```javascript
+var modulo = require('modulo')```
 
 A continuación, usaremos modulo como cualquier objeto.
 
 **Instalar dependencias**
 
-Si existe un fichero ```package.json``` que incluya las dependencias del módulo, una simple invocación de ```npm install``` instalará las dependencias necesarias. 
+Si existe un fichero ```package.json``` que incluya las dependencias del módulo, una simple invocación de ```npm install``` instalará las dependencias necesarias.

@@ -57,3 +57,23 @@ Podemos usar GitBook en su versión de línea de comandos para inicializar, cons
   Los archivos HTML, CSS y JavaScript necesarios para la correcta visualización del libro se ubican en la subcarpeta **_book**. A continuación se muestra una captura de cómo quedó el ejemplo que hemos usado en el capítulo.
 
   ![Ejemplo finalizado](img/example-finished.PNG)
+
+  **Otros formatos**
+
+    NOTA: Se puede exportar el libro a otros formatos (```gitbook formato```) Siendo los formatos los siguientes:
+    * mobi
+    * epub
+    * pdf
+
+
+* **Servir el resultado**
+
+  Una vez hemos creado el libro, podremos hacer que esté disponible en localhost para poder navegar correctamente por él.
+
+  ```gitbook serve```
+
+  La opción ```--port``` nos permitirá seleccionar el puerto.
+
+  ![Gitbook serve](img/gitbook-serve-cli.PNG)
+
+  ![Resultado de gitbook-serve](img/gitbook-serve.PNG)
