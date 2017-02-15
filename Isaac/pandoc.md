@@ -79,6 +79,23 @@ $ pandoc fichero.md -s -o fichero.html
 $ pandoc fichero.md --latex-engine=xelatex -o fichero.pdf
 ```
 
+### Pasar de Latex a Markdown
+
+```
+$ pandoc fichero.tex -o fichero.md
+```
+
+### Pasar página web a Markdown
+
+```
+$ pandoc -s -r html https://es.wikipedia.org/wiki/Markdown -o example12.md
+```
+### Pasar de Markdown a EPUB
+
+```
+$ pandoc fichero.md -o fichero.epub
+```
+
 ### Más ejemplos
 
 Puedes encontrar más ejemplos de conversión de formatos con pandoc [siguiendo este enlace](http://pandoc.org/demos.html).
