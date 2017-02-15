@@ -85,7 +85,7 @@ $ pandoc fichero.md --latex-engine=xelatex -o fichero.pdf
 $ pandoc fichero.tex -o fichero.md
 ```
 
-### Pasar página web a Markdown
+### Pasar de HTML a Markdown
 
 ```
 $ pandoc -s -r html https://es.wikipedia.org/wiki/Markdown -o example12.md
